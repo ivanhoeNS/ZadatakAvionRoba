@@ -18,8 +18,6 @@ public class Avion {
     private int rasponKrila;
 
 
-    @ForeignCollectionField(foreignFieldName = "roba")
-    private ForeignCollection<Roba> robas;
 
     public Avion( String oznaka, int rasponKrila) {
 
